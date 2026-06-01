@@ -1,1 +1,8 @@
 venv/
+.DS_Store
+.DS_Store/
+
+yolov8n.pt
+mouse_wellbeing_convext_tiny.pt
+dataset/
+mouse_dataset/
