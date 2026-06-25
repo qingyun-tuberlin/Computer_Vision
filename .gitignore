@@ -6,3 +6,8 @@ yolov8n.pt
 mouse_wellbeing_convext_tiny.pt
 dataset/
 mouse_dataset/
+mouse-mgs-2026-06-04/
+output/
+Paper/
+teaching/
+terminal_log/
