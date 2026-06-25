@@ -12,3 +12,5 @@ Paper/
 teaching/
 terminal_log/
 *.jpg
+_pycache_/
+*.pt
