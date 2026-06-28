@@ -113,8 +113,7 @@ def copy_impaired_images(
     output_dir
 ):
     """
-    Copy all images with label == 1 (impaired)
-    into output_dir.
+    Copy all images with label == 1 (impaired) into output_dir.
 
     Parameters
     ----------
