@@ -25,6 +25,7 @@ def get_device():
 
 
 def build_transforms(image_size=224):
+    # for image transformation
     train_tfms = transforms.Compose([
         transforms.Resize((image_size, image_size)),
         transforms.RandomHorizontalFlip(),
