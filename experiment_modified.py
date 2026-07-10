@@ -6,7 +6,7 @@ from torch.utils.data import DataLoader
 from torchvision import transforms
 from sklearn.metrics import confusion_matrix, classification_report
 
-from model import build_convnext_tiny
+from model import *
 
 
 LABEL_MAPPING = {
@@ -366,7 +366,8 @@ def run_training_with_lr_schedule_early_stop_best_model(
         image_size=image_size
     )
 
-    model = build_convnext_tiny(
+    model = build_model(
+        model_name="convnext_tiny",
         num_classes=2,
         pretrained=pretrained
     )
