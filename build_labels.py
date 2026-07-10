@@ -1,5 +1,7 @@
 import numpy as np
 import pandas as pd
+from pathlib import Path
+import shutil
 
 def build_labels(MGS_CSV,MAIN_CSV,IMG_DIR):
     """
@@ -104,10 +106,6 @@ def build_labels(MGS_CSV,MAIN_CSV,IMG_DIR):
                "path", "mgs_mean", "label"]].reset_index(drop=True)
 
 
-from pathlib import Path
-import shutil
-
-
 def copy_impaired_images(
     df,
     output_dir
@@ -145,3 +143,6 @@ def copy_impaired_images(
 
     print(f"Copied {copied} impaired images to:")
     print(output_dir)
+
+
+

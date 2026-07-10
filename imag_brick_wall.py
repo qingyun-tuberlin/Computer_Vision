@@ -98,8 +98,8 @@ def make_image_brick_wall(
 make_image_brick_wall(
     image_dir="mouse_dataset/images_perfect",
     output_path="output/image_perfect_brick_wall.png",
-    n_images=70,
+    n_images=4,
     tile_size=120,
     gap=16,
-    cols=10
+    cols=2
 )
